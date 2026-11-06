@@ -59,7 +59,9 @@ denominator = np.sum((x - x_mean) ** 2)
 b1 = numerator / denominator
 b0 = y_mean - b1 * x_mean
 
-print(f"Regression equation: y = {b1:.2f}*x + {b0:.2f}")
+print(
+    f"Regression equation: y = {b1:.2f}*x + {b0:.2f} \n where y – total cost [$], x – production volume [units]"
+)
 
 
 print("""

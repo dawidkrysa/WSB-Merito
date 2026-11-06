@@ -53,14 +53,14 @@ advertising_b = np.array(
 print("""---------------------------------------------------------------
 a. What is the mean amount spent on advertising?
 ---------------------------------------------------------------""")
-print(f"Mean: {np.mean(advertising_b):.4f}")
+print(f"Mean: {np.mean(advertising_b):.4f} billion $")
 
 
 print("""
 ---------------------------------------------------------------
 b. What is the median amount spent on advertising?
 ---------------------------------------------------------------""")
-print(f"Median: {np.median(advertising_b):.4f}")
+print(f"Median: {np.median(advertising_b):.4f} billion $")
 
 
 print("""
@@ -69,4 +69,4 @@ c. What are the first and third quartiles?
 ---------------------------------------------------------------""")
 q1 = np.quantile(advertising_b, 0.25, method="midpoint")
 q3 = np.quantile(advertising_b, 0.75, method="midpoint")
-print(f"First quartile: {q1:.4f}\nThird quartile: {q3:.4f}")
+print(f"First quartile: {q1:.4f} billion $ \nThird quartile: {q3:.4f} billion $")
